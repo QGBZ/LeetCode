@@ -1,9 +1,9 @@
 <template>
-    <div id="app">
+    <div>
         <div id="nav">
             <router-link to="/">Home</router-link>
             |
-            <router-link to="/two">two</router-link>
+            <router-link to="/TwoSum">TwoSum</router-link>
         </div>
         <router-view style="margin-top: 10vh"></router-view>
     </div>
@@ -28,6 +28,7 @@
 
     #nav {
         position: absolute;
+      text-align: center;
         top: 5vh;
         left: 45%;
         width: 10%;
