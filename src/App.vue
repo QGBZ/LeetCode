@@ -4,6 +4,8 @@
             <router-link to="/">Home</router-link>
             |
             <router-link to="/TwoSum">TwoSum</router-link>
+            |
+            <router-link to="/GenerateParentheses">GenerateParentheses</router-link>
         </div>
         <router-view style="margin-top: 10vh"></router-view>
     </div>
@@ -28,10 +30,9 @@
 
     #nav {
         position: absolute;
-      text-align: center;
+        text-align: center;
         top: 5vh;
-        left: 45%;
-        width: 10%;
+        width: 100%;
         z-index: 2;
     }
 
